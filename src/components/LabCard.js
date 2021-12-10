@@ -23,7 +23,7 @@ function LabCard({ lab }) {
 
   const resultsDisplay =
     <Card.Description>
-      (<strong>{lab.id}</strong>
+      <strong>{lab.id}</strong>
       <div className="boldMe">
         {isDecreased ? "LOW" : "ELEVATED"}
       </div>
