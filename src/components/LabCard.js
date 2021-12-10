@@ -29,7 +29,7 @@ function LabCard({ lab }) {
       </div>
       Reasons why:
       {<br />}
-      {isDecreased ? decreasedList : increasedList})
+      {isDecreased ? decreasedList : increasedList}
     </Card.Description>
 
   const interferDisplay =
